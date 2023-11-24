@@ -1,0 +1,311 @@
+* {
+    border: none;
+    outline: none;
+    user-select: none;
+    list-style: none;
+}
+
+
+body {
+    margin: 0;
+	height: 100vh;
+	display: grid;
+	grid-template-areas: "header" "main" "footer";
+	grid-template-rows: 150px 1fr 260px;
+}
+
+
+header {
+	
+	color: white;
+	font: x-large bold Arial, Helvetica, sans-serif;
+	grid-area: header;
+	background-color: white;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;  
+	
+
+}
+
+
+main {
+	color: black;
+	font: x-large bold Arial, Helvetica, sans-serif;
+	grid-area: main;
+	display: flex; 
+	background-color: white;
+	align-items: center;
+	justify-content: center;
+}
+
+
+footer {
+	grid-area: footer;
+	background-color:  white;
+	align-items: center;
+	background-color:white;
+    color: black;
+    padding: 10px;
+    text-align: center;
+	font-size: 130%;
+}
+
+
+a {
+	font-size: medium;
+	color: rgb(0, 0, 0);
+	text-decoration: none;
+}
+
+
+.espacinho{
+	
+	font-size: 100%;
+    padding-bottom: center;
+    padding: 80px;
+}
+
+
+.logod{
+    width: 150px; 
+	height: 150px;
+	padding: 10px;
+	margin-top: 5px;
+}
+
+
+.redes-sociais {
+    margin:0 10px;  /* Espaçamento entre o conteúdo e os links de redes sociais */
+    color: black;
+    font-size: 110%;
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Centralizar verticalmente */
+}
+
+
+.redes-sociais img {
+    width: 30px; /* Ajuste o tamanho do logo conforme necessário */
+    height: auto;
+    
+}
+.redes-sociais a {
+    margin: 0 10px; /* Espaçamento entre o conteúdo e os links de redes sociais */
+    color: black;
+    font-size: 110%;
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Centralizar verticalmente */
+}
+
+.contato a {
+    color:black;
+    font-size: 110%;
+    margin-top: 3px; 
+}
+
+.contato img {
+    width: 30px; /* Ajuste o tamanho do logo conforme necessário */
+    height: center;
+    padding: 30px
+    margin-top 3px;
+}
+
+
+.pagamento{
+
+	font-size: 30px;
+	
+}
+
+
+.vilas{
+	font-size: 30px;
+}
+
+:root {     
+    --cor-primaria: #ff7b00;
+    --cor-secundaria: #2a2f43ea;
+    --cor-fundo: #FFEBCD;
+}
+
+
+.carrinho {
+    width: 600px;
+    height: min-content;
+    background:  #ffba5f;
+    padding: 35px;
+}
+
+
+.carrinho .cabecalho-carrinho {
+    display: flex;
+	color: black;
+	
+}
+
+
+.carrinho .cabecalho-carrinho button {
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    font-size: 2rem;
+    line-height: 10%;
+    color:  #2a2f43ea;
+    background: #ff7b00;
+    border: 2px solid rgb(255, 168, 5);
+    border-radius: 8px;
+    
+	
+}
+
+
+.carrinho .cabecalho-carrinho button:hover {
+    color: #f5f5f5;
+    background:#2a2f43ea;
+    border-color:b;
+	
+
+}
+.carrinho .cabecalho-carrinho h3 {
+    margin: auto;
+    text-align: center;
+    font: 400 1.25rem 'Poppins';
+    color: var(--cor-primaria);
+    
+}
+
+.carrinho .carrinho-item {
+    position: relative;
+    display: flex;
+    width: 90%;
+    margin: 15px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px #2a2f430f;
+	justify-content: center;
+
+}
+
+
+.carrinho .carrinho-item .imagem {
+	width: 30%;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+	
+
+.carrinho .carrinho-item .img {
+	   width: 90%; 
+}
+
+
+.carrinho .carrinho-item .info {
+	width: 70%;
+	padding: 14px;
+}
+	
+
+.carrinho .carrinho-item h4 {
+	color: black;
+	font: 700 1.25rem 'Poppins';  
+}
+	
+
+.carrinho .carrinho-item .detalhes {
+	display: flex;
+	gap: 10px; 
+}
+	
+
+.carrinho .carrinho-item .detahes i {
+	color: #2a2f43d2;
+	font-size: 1.0625rem;
+	transform: translateY(3px);
+}
+
+
+.carrinho .carrinho-item .detahes span {
+    font: 600 0.75rem 'Poppins';
+    color: #2a204399;
+}
+
+
+.carrinho .carrinho-item .preco {
+    color: var(--cor-secundaria);
+    font: 700 1.25rem 'Poppins';
+    margin-top: 8px;
+}
+
+
+.carrinho .carrinho-item .contador {
+    position: absolute;
+    right: 15px;
+    bottom: 0;
+}
+
+
+.carrinho .carrinho-item .contador i {
+    cursor: pointer;
+    width: 25px;
+    height: 35px;
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-align: center;
+    line-height: 35px;
+    background: var(--cor-primaria);
+    color: #fff; 
+    border-radius: 8px 8px 0 0;
+}
+
+
+.carrinho .carrinho-item .contador span {
+    margin:  0 6px;
+    font: 700 1rem 'Poppins';
+    color: var(--cor-secundaria);
+
+}
+
+
+.carrinho .pagar {
+    font: 500 1rem 'Poppins';
+    cursor: pointer;
+    width: 100%;
+    margin-top: 10px;
+    padding: 15px 0;
+    color: #fff;
+    background: var(--cor-primaria);
+    border-radius: 8px;
+    transition: .3s;
+}
+
+.carrinho .pagar:hover {
+    background: #2a2f43f1;
+}
+
+
+.imgcarro{
+
+	width: 150px;
+	height: 150px;
+}
+
+
+.tt{
+	color: black;
+}
+.fontebb{
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+.tudo{
+    background-color: #ffffff;
+}
+.icone{
+    padding-bottom: center;
+    padding: 80px;
+}
+.fontb{
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}

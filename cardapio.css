@@ -1,0 +1,104 @@
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #f8f8f8;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #080604;
+    font-weight: bold;
+}
+
+.menu {
+    display: flex;
+    justify-content:center;
+    padding: 20px;
+    
+}
+
+
+.item img {
+    max-width: 70%;
+    padding: 50px;
+}
+
+.price {
+    display: block;
+    color: black;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.novos {
+    text-align: center;
+    padding: 10px;
+    background-color: #efa92a;
+    color: #080604;
+}
+.cabecalho{
+    text-align: center;
+    padding: 10px;
+    background-color:#e18b22;
+    color: #080604;
+}
+.nomecombo{
+    text-align: center;
+}
+.tudo{
+    background-color: #ffffff;
+}
+.item{
+	
+	width: 300px; 
+	height: 500px;
+	margin-left: 100px;
+	text-align: center;
+}
+.h {
+	
+	text-align: center;
+	padding: 10px;
+	background-color: #ffab2d;
+	color: white;
+	font-size: 150%;
+	width: 1883px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+.whatsapp-link{
+	
+	background-color: #ffab2d;
+	color: white;
+	padding: 15px 40px;
+	text-decoration: none;
+	border-radius: 5px;	
+	font-weight: bold;
+}
+.fontb{
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+.icone{
+    padding-bottom: center;
+    padding: 80px;
+}

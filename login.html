@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Cantinho da Maria</title>
+		<link rel="stylesheet" href="login.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	</head>
+	<body> 
+        <header class="tudo">
+            <h1>
+                <img src="./imagens/logo (2).png" width="300" height="200">
+            </h1>
+        
+        </header>
+        
+        <main>
+			<div class="carrinho">
+				<div class="cabecalho-carrinho">
+					<button>
+						<a  href="index.html" ><i class="fa-solid fa-xmark"></i></a>
+					</button> 
+					<h2 class="fontebb">Login</h2>
+				</div>
+			<form action="">
+				<datalist id="estados">
+					<option>SP</option>
+					<option>MG</option>
+					<option>PR</option>
+					<option>RJ</option>
+					<option>MS</option>
+					<option>MT</option>
+					<option>GO</option>
+					<option>TO</option>
+					<option>PA</option>
+					<option>CE</option>
+					<option>PI</option>
+					<option>MR</option>
+					<option>AP</option>
+					<option>AC</option>
+					<option>AM</option>
+					<option>DF</option>
+					<option>RD</option>
+					<option>RR</option>
+					<option>PE</option>
+					<option>PB</option>
+					<option>BA</option>
+					<option>RS</option>
+					<option>SC</option>
+					<option>RN</option>
+					<option>AL</option>
+					<option>SE</option>
+				</datalist>
+				<fieldset class="t">
+					<legend><b>Dados Pessoais</b></legend>
+					<label for="">Nome:<input type="text" name="nome"></label>
+					<label for="">Data de Nascimento:<input type="date" name="dtNasc"></label><br>
+					<label for="">CPF:<input type="text" name="cpf"></label>
+					<label for="">RG:<input type="text" name="rg"></label>
+				</fieldset><br>
+				<fieldset class="t">
+					<legend><b>Localização</b></legend>
+					<label for="">Endereço:<input type="text" name="endeco"></label>
+					<label for="">Bairro:<input type="text" name="bairro"></label><br>
+					<label for="">CEP:<input type="text" name="cep"></label>
+					<label for="">Cidade:<input type="text" name="cidade"></label>
+					<Label>Estado:<input type="text" list="estados" placeholder="escolha"></Label>
+				</fieldset><br>
+				<fieldset class="t">
+					<legend><b>Contato</b></legend>
+					<label for="">Telefone:<input type="text" name="telefone"></label>
+					<label for="">Email:<input type="email" name="email"></label>
+				</fieldset><br>
+				<button class="bt" type="submit">Enviar</button>
+				<button class="bt" type="reset">Limpar</button>
+			</form>
+        </main>
+        <footer class="footer">
+            <div class="redes-sociais">
+                <a href="https://instagram.com/docesfogaoalenha?igshid=NTc4MTIwNjQ2YQ==" target="_blank">Instagram</a>
+                <i class="fa-brands fa-instagram"></i>
+                <!-- Adicione mais links de redes sociais conforme necessário -->
+            </div>
+            <div class="contato">
+                <a href="https://wa.me/qr/7WOAT6OQT4FQA1" target="_blank">WhatsApp</a>
+                <i class="fa-brands fa-whatsapp"></i>
+            </div>
+            
+            <p class="pagamento"><i class="fa-brands fa-cc-visa"></i>              <i class="fa-brands fa-staylinked"></i>                  <i class="fa-brands fa-cc-mastercard"></i>                  <i class="fa-brands fa-cc-amazon-pay"></i></p>
+        </footer>
+	</div>
+    </body>
+</html>
